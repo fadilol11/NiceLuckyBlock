@@ -1,0 +1,925 @@
+MinMinecraftVersion: 1.8
+Icon: CRAFTING_TABLE
+Outcomes:
+  '0':
+    outcome-name: Diamond sword + firework effect
+    probability: 100
+    icon: DIAMOND_SWORD
+    rewards:
+      item:
+        '0':
+          material: DIAMOND_SWORD
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+      firework:
+        '0':
+          amount: 3
+          power: 2
+          trail: true
+          flicker: true
+          type: BALL
+          color:
+          - FF0000
+          fade:
+          - FF0000
+    delayer: []
+  '1':
+    outcome-name: Emerald x32 + villager tower
+    probability: 100
+    icon: EMERALD
+    rewards:
+      item:
+        '0':
+          material: EMERALD
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 32
+          durability: 0
+      entity:
+        '0':
+          type: VILLAGER
+          custom_name_visible: false
+          health: 0
+          age: ADULT
+          isTamed: false
+          effects: []
+      tower_entity:
+        '0': 0,0,0,0,0
+    delayer: []
+  '2':
+    outcome-name: Stone pickaxe, axe and spade
+    probability: 100
+    icon: STONE_PICKAXE
+    rewards:
+      item:
+        '0':
+          material: STONE_PICKAXE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+        '1':
+          material: STONE_AXE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+        '2':
+          material: STONE_SWORD
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+    delayer: []
+  '3':
+    outcome-name: RegenWand
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%regen_wand%'
+    delayer: []
+  '4':
+    outcome-name: It generates a sponge block
+    probability: 100
+    icon: SPONGE
+    rewards:
+      block:
+        '0':
+          usePlayerLoc: false
+          isFallingBlock: false
+          material: SPONGE
+    delayer: []
+  '5':
+    outcome-name: InvisibilityWand
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%inv_wand%'
+    delayer: []
+  '6':
+    outcome-name: Iron pickaxe, axe and spade
+    probability: 100
+    icon: IRON_PICKAXE
+    rewards:
+      item:
+        '0':
+          material: IRON_PICKAXE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+        '1':
+          material: IRON_AXE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+        '2':
+          material: IRON_SWORD
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+    delayer: []
+  '7':
+    outcome-name: It generates a water block
+    probability: 100
+    icon: WATER_BUCKET
+    rewards:
+      block:
+        '0':
+          usePlayerLoc: false
+          isFallingBlock: false
+          material: WATER
+    delayer: []
+  '8':
+    outcome-name: It generates a lava block
+    probability: 100
+    icon: LAVA_BUCKET
+    rewards:
+      block:
+        '0':
+          usePlayerLoc: false
+          isFallingBlock: false
+          material: LAVA
+    delayer: []
+  '9':
+    outcome-name: Carrot x2
+    probability: 100
+    icon: CARROT
+    rewards:
+      item:
+        '0':
+          material: CARROT
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 2
+          durability: 0
+    delayer: []
+  '10':
+    outcome-name: 9 chicken around the location of the lucky-block
+    probability: 100
+    icon: CHICKEN_SPAWN_EGG
+    rewards:
+      entity:
+        '0':
+          type: CHICKEN
+          custom_name_visible: false
+          health: -1
+          age: ADULT
+          isTamed: false
+          effects: []
+        '1':
+          type: CHICKEN
+          custom_name_visible: false
+          health: -1
+          age: ADULT
+          isTamed: false
+          effects: []
+          offset:
+            offsetX: '1'
+            offsetY: '0'
+            offsetZ: '0'
+        '2':
+          type: CHICKEN
+          custom_name_visible: false
+          health: -1
+          age: ADULT
+          isTamed: false
+          effects: []
+          offset:
+            offsetX: '0'
+            offsetY: '0'
+            offsetZ: '1'
+        '3':
+          type: CHICKEN
+          custom_name_visible: false
+          health: -1
+          age: ADULT
+          isTamed: false
+          effects: []
+          offset:
+            offsetX: '-1'
+            offsetY: '0'
+            offsetZ: '0'
+        '4':
+          type: CHICKEN
+          custom_name_visible: false
+          health: -1
+          age: ADULT
+          isTamed: false
+          effects: []
+          offset:
+            offsetX: '0'
+            offsetY: '0'
+            offsetZ: '-1'
+        '5':
+          type: CHICKEN
+          custom_name_visible: false
+          health: -1
+          age: ADULT
+          isTamed: false
+          effects: []
+          offset:
+            offsetX: '1'
+            offsetY: '0'
+            offsetZ: '1'
+        '6':
+          type: CHICKEN
+          custom_name_visible: false
+          health: -1
+          age: ADULT
+          isTamed: false
+          effects: []
+          offset:
+            offsetX: '-1'
+            offsetY: '0'
+            offsetZ: '-1'
+        '7':
+          type: CHICKEN
+          custom_name_visible: false
+          health: -1
+          age: ADULT
+          isTamed: false
+          effects: []
+          offset:
+            offsetX: '1'
+            offsetY: '0'
+            offsetZ: '-1'
+        '8':
+          type: CHICKEN
+          custom_name_visible: false
+          health: -1
+          age: ADULT
+          isTamed: false
+          effects: []
+          offset:
+            offsetX: '-1'
+            offsetY: '0'
+            offsetZ: '1'
+    delayer: []
+  '11':
+    outcome-name: Diamond pickaxe
+    probability: 100
+    icon: DIAMOND_PICKAXE
+    rewards:
+      item:
+        '0':
+          material: DIAMOND_PICKAXE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+    delayer: []
+  '12':
+    outcome-name: Ender Pearl x2
+    probability: 100
+    icon: ENDER_PEARL
+    rewards:
+      item:
+        '0':
+          material: ENDER_PEARL
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 2
+          durability: 0
+    delayer: []
+  '13':
+    outcome-name: Sandstone block x38
+    probability: 100
+    icon: SANDSTONE
+    rewards:
+      item:
+        '0':
+          material: SANDSTONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 38
+          durability: 0
+    delayer: []
+  '14':
+    outcome-name: Stone block x30
+    probability: 100
+    icon: STONE
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 30
+          durability: 0
+    delayer: []
+  '15':
+    outcome-name: Bow with 12 arrows
+    probability: 100
+    icon: BOW
+    rewards:
+      item:
+        '0':
+          material: BOW
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+        '1':
+          material: ARROW
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 12
+          durability: 0
+    delayer: []
+  '16':
+    outcome-name: Apple x4
+    probability: 100
+    icon: APPLE
+    rewards:
+      item:
+        '0':
+          material: APPLE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 4
+          durability: 0
+    delayer: []
+  '17':
+    outcome-name: Bread x2
+    probability: 100
+    icon: BREAD
+    rewards:
+      item:
+        '0':
+          material: BREAD
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 2
+          durability: 0
+    delayer: []
+  '18':
+    outcome-name: Dirt block x30
+    probability: 100
+    icon: DIRT
+    rewards:
+      item:
+        '0':
+          material: DIRT
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 37
+          durability: 0
+    delayer: []
+  '19':
+    outcome-name: TNTWand
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%tnt_wand%'
+    delayer: []
+  '20':
+    outcome-name: SlimeWand
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%slime_wand%'
+    delayer: []
+  '21':
+    outcome-name: FireWand
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%fire_wand%'
+    delayer: []
+  '22':
+    outcome-name: LightningWand
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%lightning_wand%'
+    delayer: []
+  '23':
+    outcome-name: It generates an iron block and suddenly it strikes a lightning in its location
+    probability: 100
+    icon: IRON_BLOCK
+    rewards:
+      block:
+        '0':
+          usePlayerLoc: false
+          isFallingBlock: true
+          material: IRON_BLOCK
+          offset:
+            offsetX: '0'
+            offsetY: '3'
+            offsetZ: '0'
+      lightning:
+        '0':
+          usePlayerLoc: false
+          causeDamage: true
+    delayer: []
+  '24':
+    outcome-name: Sandstone block x32
+    probability: 100
+    icon: SANDSTONE
+    rewards:
+      item:
+        '0':
+          material: SANDSTONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 32
+          durability: 0
+    delayer: []
+  '25':
+    outcome-name: Dirt block x20
+    probability: 100
+    icon: DIRT
+    rewards:
+      item:
+        '0':
+          material: DIRT
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 20
+          durability: 0
+    delayer: []
+  '26':
+    outcome-name: Apple x2
+    probability: 100
+    icon: APPLE
+    rewards:
+      item:
+        '0':
+          material: APPLE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 2
+          durability: 0
+    delayer: []
+  '27':
+    outcome-name: Stone sword with sharpness II enchantment
+    probability: 100
+    icon: STONE_SWORD
+    rewards:
+      item:
+        '0':
+          material: STONE_SWORD
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          enchantments:
+          - DAMAGE_ALL;2
+    delayer: []
+  '28':
+    outcome-name: It generates a diamond ore block
+    probability: 100
+    icon: DIAMOND_ORE
+    rewards:
+      block:
+        '0':
+          usePlayerLoc: false
+          isFallingBlock: false
+          material: DIAMOND_ORE
+    delayer: []
+  '29':
+    outcome-name: ShieldWand
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%shield_wand%'
+    delayer: []
+  '30':
+    outcome-name: DarkHole
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%dark_hole%'
+    delayer: []
+  '31':
+    outcome-name: MiniVolcano
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%mini_volcano%'
+    delayer: []
+  '32':
+    outcome-name: ObsidianBlock rain
+    probability: 100
+    icon: OBSIDIAN
+    rewards:
+      block:
+        '0':
+          usePlayerLoc: false
+          isFallingBlock: true
+          material: OBSIDIAN
+          offset:
+            offsetX: -3,3
+            offsetY: 5,10
+            offsetZ: -3,3
+        '1':
+          usePlayerLoc: false
+          isFallingBlock: true
+          material: OBSIDIAN
+          offset:
+            offsetX: -3,3
+            offsetY: 5,10
+            offsetZ: -3,3
+        '2':
+          usePlayerLoc: false
+          isFallingBlock: true
+          material: OBSIDIAN
+          offset:
+            offsetX: -3,3
+            offsetY: 5,10
+            offsetZ: -3,3
+        '3':
+          usePlayerLoc: false
+          isFallingBlock: true
+          material: OBSIDIAN
+          offset:
+            offsetX: -3,3
+            offsetY: 5,10
+            offsetZ: -3,3
+        '4':
+          usePlayerLoc: false
+          isFallingBlock: true
+          material: OBSIDIAN
+          offset:
+            offsetX: -3,3
+            offsetY: 5,10
+            offsetZ: -3,3
+        '5':
+          usePlayerLoc: false
+          isFallingBlock: true
+          material: OBSIDIAN
+          offset:
+            offsetX: -3,3
+            offsetY: 5,10
+            offsetZ: -3,3
+        '6':
+          usePlayerLoc: false
+          isFallingBlock: true
+          material: OBSIDIAN
+          offset:
+            offsetX: -3,3
+            offsetY: 5,10
+            offsetZ: -3,3
+        '7':
+          usePlayerLoc: false
+          isFallingBlock: true
+          material: OBSIDIAN
+          offset:
+            offsetX: -3,3
+            offsetY: 5,10
+            offsetZ: -3,3
+    delayer: []
+  '33':
+    outcome-name: IceBow
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%ice_bow%'
+        '1':
+          material: ARROW
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 6
+          durability: 0
+    delayer: []
+  '34':
+    outcome-name: PotionWand
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%potion_wand%'
+    delayer: []
+  '35':
+    outcome-name: Exp bottles
+    probability: 100
+    icon: EXPERIENCE_BOTTLE
+    rewards:
+      entity:
+        '0':
+          type: THROWN_EXP_BOTTLE
+          custom_name_visible: false
+          offset:
+            offsetX: '0'
+            offsetY: '5'
+            offsetZ: '0'
+        '1':
+          type: THROWN_EXP_BOTTLE
+          custom_name_visible: false
+          offset:
+            offsetX: '0'
+            offsetY: '5'
+            offsetZ: '0'
+        '2':
+          type: THROWN_EXP_BOTTLE
+          custom_name_visible: false
+          offset:
+            offsetX: '0'
+            offsetY: '5'
+            offsetZ: '0'
+        '3':
+          type: THROWN_EXP_BOTTLE
+          custom_name_visible: false
+          offset:
+            offsetX: '0'
+            offsetY: '5'
+            offsetZ: '0'
+        '4':
+          type: THROWN_EXP_BOTTLE
+          custom_name_visible: false
+          offset:
+            offsetX: '0'
+            offsetY: '5'
+            offsetZ: '0'
+        '5':
+          type: THROWN_EXP_BOTTLE
+          custom_name_visible: false
+          offset:
+            offsetX: '0'
+            offsetY: '5'
+            offsetZ: '0'
+        '6':
+          type: THROWN_EXP_BOTTLE
+          custom_name_visible: false
+          offset:
+            offsetX: '0'
+            offsetY: '5'
+            offsetZ: '0'
+        '7':
+          type: THROWN_EXP_BOTTLE
+          custom_name_visible: false
+          offset:
+            offsetX: '0'
+            offsetY: '5'
+            offsetZ: '0'
+    delayer:
+    - 1;5
+    - 2;10
+    - 3;15
+    - 4;20
+    - 5;25
+    - 6;30
+    - 7;35
+  '36':
+    outcome-name: FrostPathWand
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%frost_path_wand%'
+    delayer: []
+  '37':
+    outcome-name: PlayerTracker
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%player_tracker%'
+    delayer: []
+  '38':
+    outcome-name: AutoBow
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%auto_bow%'
+        '1':
+          material: ARROW
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 25
+          durability: 0
+    delayer: []
+  '39':
+    outcome-name: MultiBow
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%multi_bow%'
+        '1':
+          material: ARROW
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 25
+          durability: 0
+    delayer: []
+  '40':
+    outcome-name: ExplosiveBow
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%explosive_bow%'
+        '1':
+          material: ARROW
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 10
+          durability: 0
+    delayer: []
+  '41':
+    outcome-name: EndermanSoup
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%enderman_soup%'
+    delayer: []
+  '42':
+    outcome-name: HotPotato
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%hot_potato%'
+    delayer: []
+  '43':
+    outcome-name: HomingBow
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%homing_bow%'
+        '1':
+          material: ARROW
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 5
+          durability: 0
+    delayer: []
+  '44':
+    outcome-name: HookBow
+    probability: 100
+    icon: CHEST
+    rewards:
+      item:
+        '0':
+          material: STONE
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 1
+          durability: 0
+          name: '%hook_bow%'
+        '1':
+          material: ARROW
+          spawnMode: DEFAULT
+          spawnInvSlot: 0
+          amount: 5
+          durability: 0
+    delayer: []
+  '45':
+    outcome-name: DarkHoleEvent
+    probability: 100
+    icon: BUCKET
+    rewards:
+      dark_hole:
+        '0':
+          depth: 5
+          radius: 1.0
+          ticks_between_blocks: 5
+          squared: true
+    delayer: []
+  '46':
+    outcome-name: MiniVolcanoEvent
+    probability: 100
+    icon: LAVA_BUCKET
+    rewards:
+      mini_volcano:
+        '0':
+          height: 5
+          baseMaterial: OBSIDIAN
+          lavaMaterial: LAVA
+          ticks_between_blocks: 20
+          squared: false
+          throw_blocks: true
+    delayer: []
